@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(240, 133, 114);
+}
+
+
+
+.profile-card-2 {
+  max-width: 300px;
+  background-color: #FFF;
+
+    overflow: hidden;
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+ 
+}
+.profile-card-2:hover {
+  transition: all linear 0.25s;
+}
+.profile-card-2 img {
+
+  width: 100%;
+  
+}
+
+.profile-card-2 .profile-name {
+  position: absolute;
+  left: 30px;
+  bottom: 70px;
+  font-size: 30px;
+  color: #FFF;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+ 
+}
+
+.profile-card-2 .profile-icons {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  color: #FFF;
+
+}
+
+.profile-card-2 .profile-username {
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
+  color: #FFF;
+  font-size: 13px;
+
+}
+
+.profile-card-2 .profile-username2 {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: #FFF;
+  font-size: 13px;
+
+
+}
+
+.profile-card-2 .profile-icons .fa {
+  margin: 5px;
+}
+
+
+.profile-card-2:hover .profile-name {
+  bottom: 80px;
+}
+
+.profile-card-2:hover .profile-username {
+  bottom: 60px;
+}
+
+.profile-card-2:hover .profile-username2 {
+  bottom: 40px;
+}
+
+
+
+.box-shadow:hover {
+  box-shadow: -10px 15px 20px 10px cyan;
+  transition: ease-in-out .6s;
+}
+
+.box-shadow-btn:hover {
+  box-shadow: -5px 5px 10px rgb(255, 13, 0);
+  transition: linear .3s;
+}
